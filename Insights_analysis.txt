@@ -1,0 +1,74 @@
+Tata motors service centre sales transaction data
+this data contains sale transactions of spare parts and 
+servicing detials such as KM run, type of cars and type of service 
+and no of days the car was in the service centre.
+
+here we are trying to help the service centre
+
+
+#3  months of Data
+Task:
+1. which type of car needs more servicing / which cars is frequently breaking down or showing up in the service center.
+Insights: This helps us to maintain adquete stock inventory of spare parts and Nano Spares for that car
+
+Month - March
+Nexon	3390 (cnt)
+Altroz	1343 (cnt)
+Tiago	1150 (cnt)
+
+
+Month - April
+Nexon	3075
+Harrier	958
+Altroz	918
+
+Month - May
+Nexon	3606
+Tiago	1257
+Harrier	1082
+
+Car distribution (Donut Chart) for span of 3 months (March to May)
+Nexon - 38%
+Please refer the notebook
+
+
+2. Which spare part is being consumed the most per service type
+Insights: 
+
+Paid service >> SEAT PROTECTION COVER SET (WORKSHOP)	1342
+
+First Free Service >>	SEAT PROTECTION COVER SET (WORKSHOP)	59
+
+Running Repairs	>>  SEAT  PROTECTION COVER SET (WORKSHOP)	193
+Followed by		>> >> Windshield Fluid 50 ml
+
+Third Free Service	>> Windshield Fluid 50 ml	464
+	Followed by		>> SEAT PROTECTION COVER SET (WORKSHOP)	453
+	
+	
+Second Free service >> Windshield Fluid 50 ml 
+		Followed by		>> SEAT PROTECTION COVER SET (WORKSHOP)	
+		
+		
+
+
+
+3. Which Spare part being sold the most and also expensive 
+
+
+
+4. KM run and service correlation
+
+5. Weekly spike of sales / Qty sold
+6. Monthly spike of sales / Qty sold
+
+
+6. Footfall of customers on monthly wise
+
+3(March)	8970  >> Revenue (76 lakh *)
+4(April)	8038  >> Revenue (71 lakh *)
+5(MAY)	    9135  >> Revenue (72 lakh *)
+
+7. Which 20% of the spare part contributes 80 % of the sales
+
+Out of 1799 parts, 357 parts (20%) are contributing 80% of the sales
